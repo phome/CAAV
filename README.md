@@ -10,6 +10,7 @@ CAAV is a command line tool. The usage is very simple.
 
 caav.exe [start path] [-] *.*.*.*
 caav.exe [start path] [-] ...* 
+
 The first sample will automatically increase/decrease four segments of the version. And the second one just increase/decrease the last segment.
 
 CAAV will searh all the AssmblyInfo.cs and AssmblyInfo.tmpl files in the [start path]( If not specified , the path is were the caav.exe belongs to. ) and it's sub-directories and increase/decrease the version number you specified.  
